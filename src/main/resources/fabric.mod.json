@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "slipperyblocks",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Slippery Blocks",
+  "description": "Adds an item that makes blocks slippery...",
   "authors": [
-    "Me!"
+    "kilobolt"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://twitter.com/ElijahGMcentee",
+    "sources": "https://github.com/E-ZMac/slippery_blocks"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "CC-BY-NC-SA-3.0",
+  "icon": "assets/slipperyblocks/slippy.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "kilobolt.slippery.blocks.SlipperyBlocks"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "slipperyblocks.mixins.json"
   ],
 
   "depends": {
